@@ -76,6 +76,6 @@ ticket5.save
 ticket6.save
 ticket7.save
 
-puts film2.customers
-# binding.pry
-# nil
+# puts film2.customers
+binding.pry
+nil
