@@ -1,6 +1,6 @@
-require_relative ('models/customers.rb')
-require_relative ('models/films.rb')
-require_relative ('models/tickets.rb')
+require_relative ('models/customer.rb')
+require_relative ('models/film.rb')
+require_relative ('models/ticket.rb')
 require('pry')
 
 Customer.delete_all
@@ -76,5 +76,6 @@ ticket5.save
 ticket6.save
 ticket7.save
 
-binding.pry
-nil
+puts film2.customers
+# binding.pry
+# nil

@@ -1,6 +1,6 @@
 require('pg')
 require_relative('../db/sql_runner.rb')
-require_relative('./films.rb')
+require_relative('./film.rb')
 
 class Customer
 
